@@ -12,8 +12,10 @@
 cd backend
 npm install express cors
 node index.js
+```
 
 ### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
