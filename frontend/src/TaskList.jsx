@@ -17,7 +17,7 @@ const TaskList = ({ tasks, onDelete, onUpdate }) => {
   };
 
   return (
-    <div className="space-y-4 w-1/2 mx-auto">
+    <div className="space-y-4 w-1/3 mx-auto">
       {tasks.map((task) => (
         <div
           key={task.id}
